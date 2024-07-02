@@ -1,0 +1,8 @@
+23:24:35.589 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+23:24:35.672 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+23:24:42.157 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - seek-link-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 59ms, init: 0ms
+23:24:42.182 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace seek-link-default-rtdb status Active to Active
+23:25:28.670 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+23:25:28.676 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: seek-link-default-rtdb
+23:25:28.681 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for seek-link-default-rtdb
+23:25:28.684 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
